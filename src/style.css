@@ -1,0 +1,45 @@
+/* FOOTER*/
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem {
+    position: absolute;
+    width: 161.49px;
+    height: 52px;
+    left: 95px;
+    top: 21px;
+
+}
+
+.botao_acessar_conta {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 8.93%;
+    bottom: 8.93%;
+    background: #0000EE;
+    color: #0000EE;
+    border-radius: 50px;
+    height: 46px;
+    line-height: 46%;
+    text-align: center;
+    width: 199px;   
+    left: 0px;
+    border-radius: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+    
+}
