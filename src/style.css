@@ -1,6 +1,10 @@
-/* FOOTER*/
+body {
+font-family: 'Nunito', sans-serif;
+}
 
-.cabeçalho {
+/*footer*/
+
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -8,38 +12,24 @@
     position: relative;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.container_imagem {
-    position: absolute;
+.container_imagem img {
     width: 161.49px;
     height: 52px;
-    left: 95px;
-    top: 21px;
-
+    margin-left: 107.71px;
+    margin-top: 43.44px;
 }
 
 .botao_acessar_conta {
-    position: relative;
-    left: 0%;
-    right: 0%;
-    top: 8.93%;
-    bottom: 8.93%;
     background: #0000EE;
-    color: #0000EE;
+    color: white;
     border-radius: 50px;
-    height: 46px;
-    line-height: 46%;
+    border: none;
+    height: 40px;
     text-align: center;
-    width: 199px;   
-    left: 0px;
-    border-radius: 50px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    
-    
+    width: 199px; 
+    margin-top: 19px;
+    margin-right: 129px;  
 }
+
+/*parte de apresentação*/
+ 
