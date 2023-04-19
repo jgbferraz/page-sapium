@@ -1,5 +1,6 @@
 body {
 font-family: 'Nunito', sans-serif;
+
 }
 
 /*footer*/
@@ -31,7 +32,7 @@ font-family: 'Nunito', sans-serif;
 
 /*parte de apresentação*/
 
-.apresentacao {
+.apresentacao_capacitacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,19 +52,48 @@ font-family: 'Nunito', sans-serif;
     width: 199px;
 }
 
-.imagens_apresentacao {
-    display: grid;
+.imagens_apresentacao_capacitacao {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
  
 .imagen1 {
-    width: 396px;
-    height: 485px;
+
 }
 
 .imagem2 {
-    width: 226px;
-    height: 211px;
+   
 }
+
+.imagem3 {
+   
+}
+
+.imagem4 {
+ 
+}
+
+.container_apresentacao_divulgacao {
+        background-color: #F4F7FF;
+        width: 100%;
+
+}
+
+.container_apresentacao_divulgacao li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 1.5% 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 3px #000 solid;
+   border-radius: 10px;   
+}
+
+li {
+    background-color: white;
+}
+  
