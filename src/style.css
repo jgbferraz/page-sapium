@@ -5,7 +5,6 @@ font-family: 'Nunito', sans-serif;
 /*footer*/
 
 .cabecalho {
-    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,11 +24,46 @@ font-family: 'Nunito', sans-serif;
     border-radius: 50px;
     border: none;
     height: 40px;
-    text-align: center;
     width: 199px; 
     margin-top: 19px;
     margin-right: 129px;  
 }
 
 /*parte de apresentação*/
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.sapium_business {
+    color: #0000EE;
+}
+
+.botao_comecar_agora {
+    background-color: #0000EE;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 199px;
+}
+
+.imagens_apresentacao {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
  
+.imagen1 {
+    width: 396px;
+    height: 485px;
+}
+
+.imagem2 {
+    width: 226px;
+    height: 211px;
+}
