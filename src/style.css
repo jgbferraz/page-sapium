@@ -1,44 +1,35 @@
-body {
-font-family: 'Nunito', sans-serif;
-
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/*footer*/
-
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+/*cabeçalho*/
+header {
+    margin-bottom: 80px;
 }
 
-.container_imagem img {
+.logo-cabecalho {
     width: 161.49px;
     height: 52px;
     margin-left: 107.71px;
     margin-top: 43.44px;
 }
 
-.botao_acessar_conta {
+.botao-acessar_conta {
     background: #0000EE;
     color: white;
     border-radius: 50px;
     border: none;
-    height: 40px;
-    width: 199px; 
-    margin-top: 19px;
-    margin-right: 129px;  
+    height: 46px;
+    width: 199px;
+    margin-top: 24px;
 }
 
-/*parte de apresentação*/
-
-.apresentacao_capacitacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+/*parte apresentação*/
+p {
+    
 }
-
 .sapium_business {
     color: #0000EE;
 }
