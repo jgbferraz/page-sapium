@@ -28,7 +28,9 @@ header {
 
 /*parte apresentação*/
 p {
-    
+  font-family:'Montserrat', sans-serif; 
+  color: #718897;
+  ;
 }
 .sapium_business {
     color: #0000EE;
@@ -41,29 +43,6 @@ p {
     border: none;
     height: 40px;
     width: 199px;
-}
-
-.imagens_apresentacao_capacitacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
- 
-.imagen1 {
-
-}
-
-.imagem2 {
-   
-}
-
-.imagem3 {
-   
-}
-
-.imagem4 {
- 
 }
 
 .container_apresentacao_divulgacao {
@@ -86,5 +65,14 @@ p {
 
 li {
     background-color: white;
+}
+
+.botao_comecar_agora1 {
+    background-color: #F4F7FF;
+    color: #0000EE;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 199px;
 }
   
