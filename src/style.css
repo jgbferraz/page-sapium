@@ -1,10 +1,14 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /*cabeçalho*/
+body {
+    font-family: Sora;
+}
+
 header {
     margin-bottom: 80px;
 }
@@ -12,8 +16,8 @@ header {
 .logo-cabecalho {
     width: 161.49px;
     height: 52px;
-    margin-left: 107.71px;
-    margin-top: 43.44px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .botao-acessar_conta {
@@ -23,17 +27,37 @@ header {
     border: none;
     height: 46px;
     width: 199px;
-    margin-top: 24px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Sora;
 }
 
 /*parte apresentação*/
-p {
-  font-family:'Montserrat', sans-serif; 
-  color: #718897;
-  ;
+.primeiro-banner {
+    display: flex;
 }
+.titulo-apresentacao {
+    margin-top: 50px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;  
+}
+
+p {
+    font-family: Sora;
+    color: #718897;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .sapium_business {
     color: #0000EE;
+    font-weight: 600;
 }
 
 .botao_comecar_agora {
@@ -41,31 +65,100 @@ p {
     color: white;
     border-radius: 50px;
     border: none;
-    height: 40px;
+    height: 46px;
     width: 199px;
+    margin: 50px;
+    font-size: 16px;
+    font-family: Sora;
 }
 
 .container_apresentacao_divulgacao {
-        background-color: #F4F7FF;
-        width: 100%;
-
+    padding: 50px;
+    background-color: #F4F7FF;
+    width: 100%;
 }
 
-.container_apresentacao_divulgacao li {
-   display: inline-block;
-   text-align: center;
-   width: 30%;
-   vertical-align: top;
-   margin: 1.5% 1.5%;
-   padding: 30px 20px;
-   box-sizing: border-box;
-   border: 3px white solid;
-   border-radius: 10px;   
+.icone-verde{
+    left: 270px;
+    position: absolute;
+    margin-top: 50px;
 }
 
-li {
+.sapium_business2 {
+    color: #0000EE;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.subparagrafo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.blocos .small-5 {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /* margin: 1.5% 1.5%; */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* border: 3px white solid; */
+    border-radius: 10px;
     background-color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
+
+.blocos .botao {
+    background: transparent;
+    padding: auto;
+}
+
+.blocos {
+    display: flex;
+}
+
+.blocos .small-5 p {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.blocos .small-5 h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 2rem auto 1.5rem;
+    color: #383838;
+    line-height: 1.5;
+    max-width: 210px;
+    font-family: Sora;
+
+}
+
+.small-5.botao {
+    display: flex;
+    position: relative;
+
+}
+
+.small-5.botao img {
+    max-width: 100%;
+    max-height: 80px;
+    left: 250px;
+    top: 50px;
+    position: absolute;
+
+}
+
 
 .botao_comecar_agora1 {
     background-color: #F4F7FF;
@@ -74,5 +167,7 @@ li {
     border: none;
     height: 40px;
     width: 199px;
+    margin: auto;
+    font-size: 16px;
+    font-family: Sora;
 }
-  
