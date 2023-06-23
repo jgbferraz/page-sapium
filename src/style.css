@@ -171,3 +171,36 @@ p {
     font-size: 16px;
     font-family: Sora;
 }
+
+.container_apresentacao_treinamento{
+    display:block;
+}
+
+.icone-verde-agua{
+    left: 270px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.quadro-47 {
+    margin-top: 50px;
+}
+
+.titulo-apresentacao-treinamento {
+    margin-top: 100px;
+}
+
+.grupo-64 {
+ padding-top: 50px;
+}
+
+.titulo-apresentacao-treinamento1 {
+    margin-top: 100px;
+}
+
+.icone-bola-verde {
+    
+    position: absolute;
+    margin-top: 50px;
+}
+
