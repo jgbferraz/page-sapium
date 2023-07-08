@@ -185,7 +185,7 @@ p {
 }
 
 .container_apresentacao_treinamento{
-    display:block;
+
 }
 
 .icone-verde-agua{
@@ -214,5 +214,10 @@ p {
     
     position: absolute;
     margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
