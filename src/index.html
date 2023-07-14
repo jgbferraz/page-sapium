@@ -6,7 +6,7 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Sapium Business</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
   <link rel="stylesheet" href="https://cdn.noot.com.br/foundation/6.x/css/foundation-just-grid.min.css">
   <link rel="stylesheet" href="https://cdn.noot.com.br/fontawesome/6.x/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2? family=Montserrat:wght@100&display=swap">
@@ -17,358 +17,411 @@
 <body>
 
   <!-- cabeçalho -->
-  <header>
+  <header class="cabecalho">
 
     <div class="grid-x grid-margin-x large-margin-collapse ">
       <div class="cell auto">
-        <img class="logo-cabecalho" src="assets/logo horizontal.png" alt="sapium">
+        <img class="cabecalho__logo" src="assets/logo horizontal.png" alt="sapium">
       </div>
       <div class="cell shrink">
-        <button class="botao_acessar_conta">Acessar conta <i class="fa-regular fa-chevron-right"></i></button>
+        <div class="cabecalho__botao">
+          <button class="botao--azul">Acessar conta <i class="fa-regular fa-chevron-right"></i></button>
+        </div>
       </div>
     </div>
   </header>
 
   <!--parte de apresentação -->
-  <section class="primeiro-banner">
-    <div class="grid-x grid-container grid-padding-x">
-      <div class="cell small-6 small-offset-2">
-        <h1 class="titulo-apresentacao">Dê o próximo passo na capacitação de sua equipe
-          com a <spam class="sapium_business">Sapium Business.</spam>
-        </h1><br>
+  <main>
+    <section class="apresentacao">
+      <div class="grid-x grid-container grid-padding-x">
+        <div class="cell small-6 small-offset-2">
+          <h1 class="apresentacao__titulo">Dê o próximo passo na capacitação de sua equipe
+            com a <spam class="sapium-business">Sapium Business.</spam>
+          </h1><br>
+          <p class="apresentacao__paragrafo">Transforme seu ambiente de trabalho em um centro de
+            treinamento online! Revitalize sua equipe, crie e atraia novos
+            talentos e mantenha todos e alinhados com os processos
+            internos. Nunca foi tão fácil aperfeiçoar seus colaboradores
+            e padronizar o treinamento de sua equipe.</p>
+          <div class="banner-apresentacao-incial__botao">
+            <button class="botao--azul">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
+          </div>
+        </div>
 
-        <p class="paragrafo-apresentacao">Transforme seu ambiente de trabalho em um centro de
-          treinamento online! Revitalize sua equipe, crie e atraia novos
-          talentos e mantenha todos e alinhados com os processos
-          internos. Nunca foi tão fácil aperfeiçoar seus colaboradores
-          e padronizar o treinamento de sua equipe.</p>
-
-        <button class="botao_acessar_conta">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
+        <div class="cell auto">
+          <img src="assets/sapium-banner-top redimensionado.png" alt="sapium-banner-top">
+        </div>
 
       </div>
-
-      <div class="cell auto">
-        <img src="assets/sapium-banner-top redimensionado.png" alt="">
-      </div>
-
-    </div>
-  </section>
+    </section>
 
 
-  <section class="container_apresentacao_divulgacao">
-    <div class="grid-x grid-container grid-padding-x align-center">
-      <div class="cell small-10 text-center">
-        <img class="icone-verde" src="assets/Ellipse 152.png" alt="">
-        <p class="sapium_business2">AUMENTE SUA RETENÇÃO DE TALENTOS</p> <br>
-        <h3 class="subparagrafo">Não perca mais tempo com treinamentos ultrapassados,
-          demorados e sem resultado</h3>
-      </div>
-    </div>
-    <div class="grid-x text-justify grid-container blocos">
-      <div class="small-5">
-        <img src="assets/Rectangle 4190 (1).png" alt="">
-        <h4>Dificuldade em gerenciar treinamentos </h4>
-
-        <p class="apresentacao_divulgacao">Quando uma empresa cresce e tem<br>
-          um número maior de<br>
-          colaboradores, fica mais difícil<br>
-          gerenciar treinamentos presenciais<br>
-          e garantir que todos os<br>
-          funcionários estejam atualizados e<br>
-          capacitados.</p>
-      </div>
-      <div class="small-5">
-        <img class="" src="assets/Rectangle 4190 (1).png" alt="">
-        <h4>Necessidade de padronização</h4>
-
-        <p class="apresentacao_divulgacao">Quando uma empresa cresce e tem<br>
-          um número maior de<br>
-          colaboradores, fica mais difícil<br>
-          gerenciar treinamentos presenciais<br>
-          e garantir que todos os<br>
-          funcionários estejam atualizados e<br>
-          capacitados.</p>
-      </div>
-      <div class="small-5">
-        <img class="" src="assets/Rectangle 4190 (1).png" alt="">
-        <h4>Falta de feedback sobre o aprendizado</h4>
-
-        <p class="apresentacao_divulgacao">Muitas vezes, é difícil para a<br>
-          empresa saber se os colaboradores<br>
-          realmente absorveram o<br>
-          conhecimento transmitido nos<br>
-          treinamentos, sem uma ferramenta<br>
-          que permita avaliar o aprendizado<br>
-          de forma objetiva.</p>
-      </div>
-      <div class="small-5">
-        <img class="" src="assets/Rectangle 4190 (1).png" alt="">
-        <h4>Elevado custo</h4>
-
-        <p class="apresentacao_divulgacao">Treinamentos presenciais podem<br>
-          ser muito caros, tanto em relação<br>
-          aos materiais utilizados quanto à<br>
-          logística necessária para realizar o<br>
-          treinamento.</p>
-      </div>
-      <div class="small-5">
-        <img class="" src="assets/Rectangle 4190 (1).png" alt="">
-        <h4>Tempo escasso</h4>
-
-        <p class="apresentacao_divulgacao">Empresas muitas vezes têm pouco<br>
-          tempo disponível para dedicar a<br>
-          treinamentos, o que pode dificultar<br>
-          o processo de capacitação dos<br>
-          colaboradores.</p>
-      </div>
-
-      <div class="small-5 botao">
-        <img src="./assets/Ellipse 151.png" alt="">
-        <button class="botao_comecar_agora1">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
-      </div>
-
-    </div>
-
-
-
-  </section>
-
-  <section class="container_apresentacao_treinamento">
-    <div class="grid-x grid-container grid-padding-x align-middle align-center">
-      <div class="cell small-16 text text-center">
-        <img class="icone-verde-agua" src="./assets/Polygon 3.png" alt="">
-        <p class="sapium_business2">AUMENTE SUA RETENÇÃO DE TALENTOS</p> <br>
-        <h3 class="subparagrafo">Treine sua equipe de forma eficiente e personalizada</h3>
-      </div>
-    </div>
-
-    <div class="grid-x grid-container grid-padding-x">
-      <div class="cell small-6 small-offset-2">
-        <img class="quadro-47" src="./assets/Frame 47.png" alt="">
-      </div>
-      <div class="cell small-5 small-offset-1">
-        <h1 class="titulo-apresentacao-treinamento">Acompanhe o progresso de seus
-          colaboradores</h1><br>
-        <p class="paragrafo-apresentacao-treinamento">Crie trilhas de aprendizado
-          e acompanhe o progresso de cada colaborador nos cursos que foram designados para ele.
-          Você também pode ver quantos módulos ele concluiu, criar provas e você avaliar
-          o conhecimento adquirido através das notas nas provas.</p>
-      </div>
-    </div>
-
-    <div class="grid-x grid-container grid-padding-x">
-      <div class="cell small-5 small-offset-3">
-        <h1 class="titulo-apresentacao-treinamento1">Agilize a integração e</br> treinamento
-          de novos colaboradores</h1><br>
-        <p class="paragrafo-apre">Disponibilize cursos internos que
-          facilitam o processo de integração de novos colaboradores, permitindo que eles aprendam os processos e
-          metodologias de trabalho já usados dentro da sua empresa.</p>
-      </div>
-      <div class="cell auto small-offset-1">
-        <img class="grupo-64" src="./assets/Group 64.png" alt="">
-        <img class="icone-bola-verde" src="./assets/Ellipse 153.png" alt="">
-      </div>
-    </div>
-  </section>
-
-  <section class="container_apresentacao_personalizacao">
-    <div class="grid-x grid-container grid-padding-x align-middle">
-      <div class="cell auto ">
-        <div class="Home_image__GHKw_">
-          <img src="assets/Group 17.png" alt="">
+    <section class="divulgacao">
+      <div class="grid-x grid-container grid-padding-x align-center">
+        <div class="cell small-10 text-center">
+          <img class="divulgacao__icone-verde" src="assets/Ellipse 152.png" alt="">
+          <p class="paragrafo">AUMENTE SUA RETENÇÃO DE TALENTOS</p> <br>
+          <h3 class="subparagrafo">Não perca mais tempo com treinamentos ultrapassados,
+            demorados e sem resultado</h3>
         </div>
       </div>
-      <div class="cell small-7 small-offset-2 ">
-        <h1>Personalização completa com o whitelabel</h1>
-        <p>Com o Sapium Business, você pode personalizar a aparência do seu portal, incluindo seu
-          logotipo e cores de marca, tornando-o uma extensão natural de sua empresa.</p>
-        <button class="botao_comecar_agora_branco">Comprar agora <i class="fa-regular fa-chevron-right"></i></button>
+      <div class="grid-x text-justify grid-container blocos">
+        <div class="small-5 atributos">
+          <img src="assets/Rectangle 4190 (1).png" alt="">
+          <h4 class="divulgacao__titulo">Dificuldade em gerenciar treinamentos </h4>
+
+          <p class="divulgacao__paragrafo">Quando uma empresa cresce e tem<br>
+            um número maior de<br>
+            colaboradores, fica mais difícil<br>
+            gerenciar treinamentos presenciais<br>
+            e garantir que todos os<br>
+            funcionários estejam atualizados e<br>
+            capacitados.</p>
+        </div>
+        <div class="small-5 atributos">
+          <img class="" src="assets/Rectangle 4190 (1).png" alt="">
+          <h4 class="divulgacao__titulo">Necessidade de padronização</h4>
+
+          <p class="divulgacao__paragrafo">Quando uma empresa cresce e tem<br>
+            um número maior de<br>
+            colaboradores, fica mais difícil<br>
+            gerenciar treinamentos presenciais<br>
+            e garantir que todos os<br>
+            funcionários estejam atualizados e<br>
+            capacitados.</p>
+        </div>
+        <div class="small-5 atributos">
+          <img class="" src="assets/Rectangle 4190 (1).png" alt="">
+          <h4 class="divulgacao__titulo">Falta de feedback sobre o aprendizado</h4>
+
+          <p class="divulgacao__paragrafo">Muitas vezes, é difícil para a<br>
+            empresa saber se os colaboradores<br>
+            realmente absorveram o<br>
+            conhecimento transmitido nos<br>
+            treinamentos, sem uma ferramenta<br>
+            que permita avaliar o aprendizado<br>
+            de forma objetiva.</p>
+        </div>
+        <div class="small-5 atributos">
+          <img class="" src="assets/Rectangle 4190 (1).png" alt="">
+          <h4 class="divulgacao__titulo">Elevado custo</h4>
+
+          <p class="divulgacao__paragrafo">Treinamentos presenciais podem<br>
+            ser muito caros, tanto em relação<br>
+            aos materiais utilizados quanto à<br>
+            logística necessária para realizar o<br>
+            treinamento.</p>
+        </div>
+        <div class="small-5 atributos">
+          <img class="" src="assets/Rectangle 4190 (1).png" alt="">
+          <h4 class="divulgacao__titulo">Tempo escasso</h4>
+
+          <p class="divulgacao__paragrafo">Empresas muitas vezes têm pouco<br>
+            tempo disponível para dedicar a<br>
+            treinamentos, o que pode dificultar<br>
+            o processo de capacitação dos<br>
+            colaboradores.</p>
+        </div>
+
+        <div class="small-5 botao">
+          <img class="icone__meia__lua--azul" src="./assets/Ellipse 151.png" alt="">
+          <div class="">
+            <button class="botao_comecar">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
+          </div>
+        </div>
+
       </div>
-    </div>
 
-  </section>
 
-  <section class="container_apresentacao_funcoes">
-    <div class="grid-x grid-container grid-padding-x  align-middle">
-      <div class="cell small-7 small-offset-2">
-        <h1>Fácil de usar, fácil de gerenciar</h1>
-        <p>Fácil de usar para seus colaboradores e fácil de gerenciar para a equipe de RH e
-          treinamento. Nossa plataforma é intuitiva e fornece todas as ferramentas necessárias
-          para gerenciar os cursos e avaliar o desempenho dos seus colaboradores.</p>
-      </div>
-      <div class="cell auto">
-        <img src="assets/Group 66.png" alt="">
+
+    </section>
+
+    <section class="treinamento">
+      <div class="grid-x grid-container grid-padding-x align-middle align-center">
+        <div class="cell small-16 text text-center">
+          <img class="treinamento__icone-verde-agua" src="./assets/Polygon 3.png" alt="">
+          <p class="paragrafo">AUMENTE SUA RETENÇÃO DE TALENTOS</p> <br>
+          <h3 class="subparagrafo">Treine sua equipe de forma eficiente e personalizada</h3>
+        </div>
       </div>
 
-    </div>
-
-    <div class="grid-x grid-container grid-padding-x align-middle">
-      <div class="cell small-7 small-offset-2">
-        <img src="assets/Group 58.png" alt="">
-        <img src="assets/Group 59.png" alt="">
+      <div class="grid-x grid-container grid-padding-x treinamento__bloco">
+        <div class="cell small-6 small-offset-2">
+          <img class="quadro-47" src="./assets/Frame 47.png" alt="">
+        </div>
+        <div class="cell small-5 small-offset-1">
+          <h1 class="titulo-apresentacao-treinamento">Acompanhe o progresso de seus
+            colaboradores</h1><br>
+          <p class="paragrafo-apresentacao-treinamento">Crie trilhas de aprendizado
+            e acompanhe o progresso de cada colaborador nos cursos que foram designados para ele.
+            Você também pode ver quantos módulos ele concluiu, criar provas e você avaliar
+            o conhecimento adquirido através das notas nas provas.</p>
+        </div>
       </div>
-      <div class="cell auto">
-        <h1>Mantenha seus colaboradores atualizados e conectados</h1>
-        <p>Com a plataforma Sapium Business, seus colaboradores terão a uma rede social interna
-          moderada pela empresa, eles poderão criar grupos de estudo, compartilhar conhecimento e
-          manter-se conectados e motivados.</p>
+
+      <div class="grid-x grid-container grid-padding-x bloco__treinamento">
+        <div class="cell small-5 small-offset-3">
+          <h1 class="titulo-apresentacao-treinamento">Agilize a integração e</br> treinamento
+            de novos colaboradores</h1><br>
+          <p class="paragrafo-apresentacao-treinamento">Disponibilize cursos internos que
+            facilitam o processo de integração de novos colaboradores, permitindo que eles aprendam os processos e
+            metodologias de trabalho já usados dentro da sua empresa.</p>
+        </div>
+        <div class="cell auto small-offset-1">
+          <img class="grupo-64" src="./assets/Group 64.png" alt="">
+          <img class="icone-bola-verde" src="./assets/Ellipse 153.png" alt="">
+        </div>
       </div>
 
+      <div class="roxa">
+        <div class="grid-x grid-container grid-padding-x align-middle ">
+          <div class="cell small-8 computadores">
+            <div class="">
+              <img src="assets/Group 17.png" alt="">
+            </div>
+            <img class="elipse--158" src="./assets/Ellipse 158.png" alt="">
+          </div>
+          <div class="cell small-6 computadores">
+            <h1 class="titulo-apresentacao-treinamento1">Personalização completa com o whitelabel</h1> </br>
+            <p class="paragrafo-apresentacao-treinamento1">Com o Sapium Business, você pode personalizar a aparência
+              do seu portal, incluindo seu
+              logotipo e cores de marca, tornando-o uma extensão natural de sua empresa.</p>
+            <button class="botao_comecar_agora1">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
+            <img class="polygon--4" src="assets/Polygon 4.png" alt="">
+          </div>
+        </div>
+      </div>
 
-    </div>
-  </section>
-
-  <section class="container_apresentacao_atributos">
-    <div class="grid-x grid-container grid-padding-x align-center align-middle">
-      <div class="cell small-10">
-        <img src="assets/Ellipse 154.png" alt="">
+      <div class="grid-x grid-container grid-padding-x">
+        <div class="cell small-5 small-offset-3">
+          <h1 class="titulo-apresentacao-treinamento">Fácil de usar, fácil de gerenciar</h1></br>
+          <p class="paragrafo-apresentacao-treinamento">Fácil de usar para seus colaboradores e fácil de gerenciar para
+            a equipe de RH e
+            treinamento. Nossa plataforma é intuitiva e fornece todas as ferramentas necessárias
+            para gerenciar os cursos e avaliar o desempenho dos seus colaboradores.</p>
+        </div>
+        <div class="cell small-6 small-offset-2">
+          <img src="assets/Group 66.png" alt="">
+        </div>
       </div>
       <div class="grid-x grid-container grid-padding-x align-middle">
-        <div class="cell small-8 small-offset-2">
-          <img src="assets/Group 62.png" alt="">
+        <div class="cell small-7 small-offset-2">
+          <img src="assets/Group 58.png" alt="">
+          <img src="assets/Group 59.png" alt="">
         </div>
-        <div class="cell auto">
-          <h1>Lembrete de horário de estudo</h1>
-          <p>Com o lembrete de horário de estudo, seus colaboradores serão lembrados do
-            horário escolhido para aprender através de mensagens pelo Whatsapp.</p>
-          <button class="botao_comecar_agora">Comprar agora <i class="fa-regular fa-chevron-right"></i></button>
+        <div class="cell small-5 small-offset-1">
+          <h1 class="titulo-apresentacao-treinamento">Mantenha seus colaboradores atualizados e conectados</h1></br>
+          <p class="paragrafo-apresentacao-treinamento">Com a plataforma Sapium Business, seus colaboradores terão a uma
+            rede social interna
+            moderada pela empresa, eles poderão criar grupos de estudo, compartilhar conhecimento e
+            manter-se conectados e motivados.</p>
+        </div>
+
+
+      </div>
+    </section>
+    <section class="estudos">
+
+      <div class="grid-x grid-container grid-padding-x align-center align-middle">
+        <div class="cell small-10">
+          <img src="assets/Ellipse 154.png" alt="">
         </div>
         <div class="grid-x grid-container grid-padding-x align-middle">
-          <div class="cell small-7 small-offset-2">
-            <h1>Biblioteca com mais de 900 cursos</h1>
-            <p>Com a plataforma Sapium Business, a sua empresa não precisa se preocupar em produzir
-              todos os cursos do zero. Temos uma vasta biblioteca com mais de 900 cursos em diversos
-              temas, prontos para serem disponibilizados aos seus colaboradores. Isso significa que
-              sua empresa economiza tempo e dinheiro, sem perder a qualidade da capacitação.</p>
+          <div class="cell small-8 small-offset-2">
+            <img src="assets/Group 62.png" alt="">
           </div>
           <div class="cell auto">
-            <img src="assets/Group 61.png" alt="">
+            <h1>Lembrete de horário de estudo</h1>
+            <p>Com o lembrete de horário de estudo, seus colaboradores serão lembrados do
+              horário escolhido para aprender através de mensagens pelo Whatsapp.</p>
+            <button class="botao--azul">Comprar agora <i class="fa-regular fa-chevron-right"></i></button>
           </div>
-        </div>
-        <div class="grid-x grid-container grid-padding-x align-middle">
-          <div class="cell small-7 small-offset-2">
-            <img src="assets/green-bell.png" alt="">
+          <div class="grid-x grid-container grid-padding-x align-middle">
+            <div class="cell small-7 small-offset-2">
+              <h1>Biblioteca com mais de 900 cursos</h1>
+              <p>Com a plataforma Sapium Business, a sua empresa não precisa se preocupar em produzir
+                todos os cursos do zero. Temos uma vasta biblioteca com mais de 900 cursos em diversos
+                temas, prontos para serem disponibilizados aos seus colaboradores. Isso significa que
+                sua empresa economiza tempo e dinheiro, sem perder a qualidade da capacitação.</p>
+            </div>
+            <div class="cell auto">
+              <img src="assets/Group 61.png" alt="">
+            </div>
           </div>
-          <div class="cell auto">
-            <h1>Ajudamos na montagem da grade e trilhas</h1>
-            <p>Nossa equipe de suporte está disponível para ajudar a escolher os cursos mais adequados
-              aos seus objetivos e necessidades. Com a Sapium, você tem a tranquilidade de saber que
-              seus colaboradores estão sendo capacitados com o que há de melhor no mercado,
-              sem comprometer o orçamento da empresa.</p>
-            <button class="botao_comecar_agora">Comprar agora <i class="fa-regular fa-chevron-right"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container_apresentacao_banner">
-    <div class="grid-x grid-container grid-padding-x align-middle">
-
-      <div class="cell small-7 small-offset-2">
-        <h1>Todo suporte nas mãos da Sapium.</h1>
-        <p>Sabemos que manter uma equipe de TI pode ser custoso e que, muitas
-          vezes, ela já está sobrecarregada com diversas tarefas e demandas.
-          Por isso, a Sapium oferece todo o suporte necessário para a plataforma
-          de forma totalmente gratuita para a empresa e seus colaboradores.
-          Isso significa que, caso eles tenham dificuldades para acessar a
-          ferramenta ou qualquer outro tipo de problema, nossa equipe de suporte estará
-          pronta para ajudá-los.</p>
-      </div>
-      <div class="cell auto">
-        <img src="" alt="">
-      </div>
-    </div>
-  </section>
-
-  <section class="container_apresentacao_valores">
-    <div class="grid-x grid-container grid-padding-x text-center align-middle">
-      <div class="small-16">
-        <span>Sem taxas de implementação, cobranças extras ou mensalidades</span>
-        <h1>Pague apenas por colaborador <b>ativo</b></h1>
-      </div>
-    </div>
-  </section>
-
-  <section class="container_apresentacao_entrada">
-    <div class="grid-x grid-container grid-padding-x text-center align-center align-middle">
-      <div class="cell small-16">
-        <div class="banner00">
-          <div class="banner01">
-            <h3>Sapium Business</h3>
-            <p>R$<span>9,99</span><b>/ mês<br>por colaborador</b></p>
-            <ul>
-              <li>Personalização do ambiente</li>
-              <li>Domínio personalizado</li>
-              <li>Ferramentas de acompanhamento de progresso</li>
-              <li>Ferramentas de lembrete de estudo</li>
-              <li>Suporte personalizado Sapium</li>
-            </ul>
-            <div class="botao-entrada">
-              <button class="botao_acessar_conta">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
+          <div class="grid-x grid-container grid-padding-x align-middle">
+            <div class="cell small-7 small-offset-2">
+              <img src="assets/green-bell.png" alt="">
+            </div>
+            <div class="cell auto">
+              <h1>Ajudamos na montagem da grade e trilhas</h1>
+              <p>Nossa equipe de suporte está disponível para ajudar a escolher os cursos mais adequados
+                aos seus objetivos e necessidades. Com a Sapium, você tem a tranquilidade de saber que
+                seus colaboradores estão sendo capacitados com o que há de melhor no mercado,
+                sem comprometer o orçamento da empresa.</p>
+              <button class="botao--azul">Comprar agora <i class="fa-regular fa-chevron-right"></i></button>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="container_apresentacao_duvida">
-    <div class="grid-x grid-container grid-padding-x">
-      <h2>Dúvidas frequentes</h2>
-    </div>
-    <ol class="grid-x grid-container grid-padding-x grid-padding-y">
-      <div class="cell all-padding aos-init aos-animate">
-        <li>
-          <h3>Dúvida 2<!-- --> <i class="duvida_titulo"></i></h3>
-          <div class="duvida_descricao">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam
-              ex erat, eget hendrerit orci elementum at. Suspendisse venenatis gravida velit,
-              quis fermentum purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis,
-              vestibulum cursus justo.<!-- --> </p>
-          </div>
-        </li>
-        <li>
-          <h3>Dúvida 2<!-- --> <i class="duvida_titulo"></i></h3>
-          <div class="duvida_descricao">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-              eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentuM
-              purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-              justo.<!-- --> </p>
-          </div>
-        </li>
-        <li>
-          <h3>Dúvida 3<!-- --> <i class="duvida_titulo"></i></h3>
-          <div class="duvida_descricao">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-              eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-              purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-              justo.<!-- --> </p>
-          </div>
-        </li>
-        <li>
-          <h3>Dúvida 3<!-- --> <i class="duvida_titulo"></i></h3>
-          <div class="duvida_descricao">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-              eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-              purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-              justo.<!-- --> </p>
-          </div>
-        </li>
-        <li>
-          <h3>Dúvida 3<!-- --> <i class="duvida_titulo"></i></h3>
-          <div class="duvida_descricao">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-              eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-              purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-              justo.<!-- --> </p>
-          </div>
-        </li>
+    <section class="suporte">
+      <div class="grid-x grid-container grid-padding-x align-middle">
+
+        <div class="cell small-7 small-offset-2">
+          <h1>Todo suporte nas mãos da Sapium.</h1>
+          <p>Sabemos que manter uma equipe de TI pode ser custoso e que, muitas
+            vezes, ela já está sobrecarregada com diversas tarefas e demandas.
+            Por isso, a Sapium oferece todo o suporte necessário para a plataforma
+            de forma totalmente gratuita para a empresa e seus colaboradores.
+            Isso significa que, caso eles tenham dificuldades para acessar a
+            ferramenta ou qualquer outro tipo de problema, nossa equipe de suporte estará
+            pronta para ajudá-los.</p>
+        </div>
+        <div class="cell auto roxa">
+          <img src="" alt="">
+        </div>
       </div>
-    </ol>
-  </section>
+    </section>
 
+    <section class="valores">
+      <div class="grid-x grid-container grid-padding-x text-center align-middle">
+        <div class="small-16">
+          <span class="paragrafo">Sem taxas de implementação, cobranças extras ou mensalidades</span>
+          <h1>Pague apenas por colaborador <b>ativo</b></h1>
+        </div>
+      </div>
 
+      <div class="grid-x grid-container grid-padding-x text-center align-center align-middle">
+        <div class="cell small-16">
+          <div class="banner00">
+            <div class="banner01">
+              <h3>Sapium Business</h3>
+              <p>R$<span>9,99</span><b>/ mês<br>por colaborador</b></p>
+              <ul>
+                <li>Personalização do ambiente</li>
+                <li>Domínio personalizado</li>
+                <li>Ferramentas de acompanhamento de progresso</li>
+                <li>Ferramentas de lembrete de estudo</li>
+                <li>Suporte personalizado Sapium</li>
+              </ul>
+              <div class="botao-entrada">
+                <button class="botao_acessar_conta">Começar agora <i class="fa-regular fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="duvidas">
+      <div class="grid-x grid-container grid-padding-x">
+        <div x-data="{ selected: null }" class="border border-gray-200 rounded-lg cell small-16" class="p-3">
+          <div class="[&>*]:border-b [&>*]:border-b-gray-200 last:[&>*]:border-b-0">
+            <div class="sanfona">
+              <button @click="selected !== 1 ? selected = 1 : selected = null"
+                class="w-full flex justify-between items-center p-3 ">
+                <h3 class="text-sm font-semibold">Dúvida 2</h3>
+                <div>
+                  <span class="text-lg transition-all block" :class="selected === 1 ? 'rotate-45' : ''">+</span>
+                </div>
+              </button>
+              <div x-cloak x-show="selected === 1" class="text-sm text-black/50 p-3"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95">
+                <div class="duvida_descricao">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                    justo.</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="sanfona">
+              <button @click="selected !== 2 ? selected = 2 : selected = null"
+                class="w-full flex justify-between items-center p-3 ">
+                <h3 class="text-sm font-semibold">duvida 2</h3>
+                <div>
+                  <span class="text-lg transition-all block" :class="selected === 2 ? 'rotate-45' : ''">+</span>
+                </div>
+              </button>
+              <div x-cloak x-show="selected === 2" class="text-sm text-black/50 p-3"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95">
+                <div class="duvida_descricao">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                    justo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="sanfona">
+              <button @click="selected !== 3 ? selected = 3 : selected = null"
+                class="w-full flex justify-between items-center p-3 ">
+                <h3 class="text-sm font-semibold">Dúvida 3</h3>
+                <div>
+                  <span class="text-lg transition-all block" :class="selected === 3 ? 'rotate-45' : ''">+</span>
+                </div>
+              </button>
+              <div x-cloak x-show="selected === 3" class="text-sm text-black/50 p-3"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95">
+                <div class="duvida_descricao">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                    justo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="sanfona">
+              <button @click="selected !== 4 ? selected = 4 : selected = null"
+                class="w-full flex justify-between items-center p-3 ">
+                <h3 class="text-sm font-semibold">Dúvida 3</h3>
+                <div>
+                  <span class="text-lg transition-all block" :class="selected === 4 ? 'rotate-45' : ''">+</span>
+                </div>
+              </button>
+              <div x-cloak x-show="selected === 4" class="text-sm text-black/50 p-3"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95">
+                <div class="duvida_descricao">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                    justo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="sanfona">
+              <button @click="selected !== 5 ? selected = 5 : selected = null"
+                class="w-full flex justify-between items-center p-3 ">
+                <h3 class="text-sm font-semibold">Dúvida 3</h3>
+                <div>
+                  <span class="text-lg transition-all block" :class="selected === 5 ? 'rotate-45' : ''">+</span>
+                </div>
+              </button>
+              <div x-cloak x-show="selected === 5" class="text-sm text-black/50 p-3"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95">
+                <div class="duvida_descricao">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                    justo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </section>
+  </main>
 
   <!--rodapé-->
   <footer>
