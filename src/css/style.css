@@ -518,17 +518,18 @@ li {
 
 .duvidas {
     background: #F4F7FF;
-    padding: 100px ;
+    padding: 80px ;
 }
 
 .duvidas__titulos {
-    font-family: Sora;
+    font-family: 'Sora';
     font-size: 24px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: 0em;
     text-align: center;
-    padding-left: 500px ;
+    padding-left: 450px ;
+    margin-bottom: 100px;
 
 }
 
@@ -536,9 +537,15 @@ li {
     display: none !important;
 }
 
+.sanfona {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}    
+
 .duvidas__sanfona {
     border-radius: 20px;
     margin-bottom: 20px;
+   
 }
 
 /* rodape */

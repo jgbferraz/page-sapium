@@ -333,105 +333,104 @@
       <div class="grid-x grid-container grid-padding-x">
         <h3 class="duvidas__titulos">Dúvidas Frequentes</h3>
         <div x-data="{ selected: null }" class="border border-gray-200 rounded-lg cell small-16" class="p-3">
-          <div class="[&>*]:border-b [&>*]:border-b-gray-200 last:[&>*]:border-b-0">
-            <div class="duvidas__sanfona">
+          <div class="[&>*]:border-b [&>*]:border-b-gray-200 last:[&>*]:border-b-0 sanfona">
+            <div class="sanfona">
               <button @click="selected !== 1 ? selected = 1 : selected = null"
                 class="w-full flex justify-between items-center p-3 ">
                 <h3 class="text-sm font-semibold">Dúvida 2</h3>
-                <div>
-                  <span class="text-lg transition-all block" :class="selected === 1 ? 'rotate-45' : ''">+</span>
-                </div>
-              </button>
-              <div x-cloak x-show="selected === 1" class="text-sm text-black/50 p-3"
-                x-transition:enter="transition ease-out duration-100"
-                x-transition:enter-start="transform opacity-0 scale-95">
-                <div class="duvida_descricao">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-                    justo.</p>
-                </div>
+                <span class="text-lg transition-all block" :class="selected === 1 ? 'rotate-45' : ''">+</span>
+            </div>
+            </button>
+            <div x-cloak x-show="selected === 1" class="text-sm text-black/50 p-3"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95">
+              <div class="duvida_descricao">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                  eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                  purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                  justo.</p>
+              </div>
 
+            </div>
+          </div>
+          <div class="sanfona">
+            <button @click="selected !== 2 ? selected = 2 : selected = null"
+              class="w-full flex justify-between items-center p-3 ">
+              <h3 class="text-sm font-semibold">duvida 2</h3>
+              <div>
+                <span class="text-lg transition-all block" :class="selected === 2 ? 'rotate-45' : ''">+</span>
+              </div>
+            </button>
+            <div x-cloak x-show="selected === 2" class="text-sm text-black/50 p-3"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95">
+              <div class="duvida_descricao">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                  eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                  purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                  justo.</p>
               </div>
             </div>
-            <div class="sanfona">
-              <button @click="selected !== 2 ? selected = 2 : selected = null"
-                class="w-full flex justify-between items-center p-3 ">
-                <h3 class="text-sm font-semibold">duvida 2</h3>
-                <div>
-                  <span class="text-lg transition-all block" :class="selected === 2 ? 'rotate-45' : ''">+</span>
-                </div>
-              </button>
-              <div x-cloak x-show="selected === 2" class="text-sm text-black/50 p-3"
-                x-transition:enter="transition ease-out duration-100"
-                x-transition:enter-start="transform opacity-0 scale-95">
-                <div class="duvida_descricao">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-                    justo.</p>
-                </div>
+          </div>
+          <div class="sanfona">
+            <button @click="selected !== 3 ? selected = 3 : selected = null"
+              class="w-full flex justify-between items-center p-3 ">
+              <h3 class="text-sm font-semibold">Dúvida 3</h3>
+              <div>
+                <span class="text-lg transition-all block" :class="selected === 3 ? 'rotate-45' : ''">+</span>
+              </div>
+            </button>
+            <div x-cloak x-show="selected === 3" class="text-sm text-black/50 p-3"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95">
+              <div class="duvida_descricao">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                  eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                  purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                  justo.</p>
               </div>
             </div>
-            <div class="sanfona">
-              <button @click="selected !== 3 ? selected = 3 : selected = null"
-                class="w-full flex justify-between items-center p-3 ">
-                <h3 class="text-sm font-semibold">Dúvida 3</h3>
-                <div>
-                  <span class="text-lg transition-all block" :class="selected === 3 ? 'rotate-45' : ''">+</span>
-                </div>
-              </button>
-              <div x-cloak x-show="selected === 3" class="text-sm text-black/50 p-3"
-                x-transition:enter="transition ease-out duration-100"
-                x-transition:enter-start="transform opacity-0 scale-95">
-                <div class="duvida_descricao">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-                    justo.</p>
-                </div>
+          </div>
+          <div class="sanfona">
+            <button @click="selected !== 4 ? selected = 4 : selected = null"
+              class="w-full flex justify-between items-center p-3 ">
+              <h3 class="text-sm font-semibold">Dúvida 3</h3>
+              <div>
+                <span class="text-lg transition-all block" :class="selected === 4 ? 'rotate-45' : ''">+</span>
+              </div>
+            </button>
+            <div x-cloak x-show="selected === 4" class="text-sm text-black/50 p-3"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95">
+              <div class="duvida_descricao">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                  eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                  purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                  justo.</p>
               </div>
             </div>
-            <div class="sanfona">
-              <button @click="selected !== 4 ? selected = 4 : selected = null"
-                class="w-full flex justify-between items-center p-3 ">
-                <h3 class="text-sm font-semibold">Dúvida 3</h3>
-                <div>
-                  <span class="text-lg transition-all block" :class="selected === 4 ? 'rotate-45' : ''">+</span>
-                </div>
-              </button>
-              <div x-cloak x-show="selected === 4" class="text-sm text-black/50 p-3"
-                x-transition:enter="transition ease-out duration-100"
-                x-transition:enter-start="transform opacity-0 scale-95">
-                <div class="duvida_descricao">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-                    justo.</p>
-                </div>
+          </div>
+          <div class="sanfona">
+            <button @click="selected !== 5 ? selected = 5 : selected = null"
+              class="w-full flex justify-between items-center p-3 ">
+              <h3 class="text-sm font-semibold">Dúvida 3</h3>
+              <div>
+                <span class="text-lg transition-all block" :class="selected === 5 ? 'rotate-45' : ''">+</span>
               </div>
-            </div>
-            <div class="sanfona">
-              <button @click="selected !== 5 ? selected = 5 : selected = null"
-                class="w-full flex justify-between items-center p-3 ">
-                <h3 class="text-sm font-semibold">Dúvida 3</h3>
-                <div>
-                  <span class="text-lg transition-all block" :class="selected === 5 ? 'rotate-45' : ''">+</span>
-                </div>
-              </button>
-              <div x-cloak x-show="selected === 5" class="text-sm text-black/50 p-3"
-                x-transition:enter="transition ease-out duration-100"
-                x-transition:enter-start="transform opacity-0 scale-95">
-                <div class="duvida_descricao">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
-                    eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
-                    purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
-                    justo.</p>
-                </div>
+            </button>
+            <div x-cloak x-show="selected === 5" class="text-sm text-black/50 p-3"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95">
+              <div class="duvida_descricao">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex erat,
+                  eget hendrerit orci elementum at. Suspendisse venenatis gravida velit, quis fermentum
+                  purus aliquam id. Nulla elit arcu, gravida sit amet luctus quis, vestibulum cursus
+                  justo.</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <script src="https://cdn.tailwindcss.com"></script>
       <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
